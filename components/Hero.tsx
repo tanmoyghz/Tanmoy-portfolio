@@ -1,5 +1,5 @@
 import React from 'react';
-import { Mail, Linkedin, FileText, Globe, ExternalLink, BookOpen } from 'lucide-react';
+import { Mail, Linkedin, FileText, Globe } from 'lucide-react';
 import { personalInfo } from '../data';
 
 const Hero: React.FC = () => {
@@ -26,6 +26,7 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="flex flex-wrap justify-start gap-5">
+            {/* EMAIL BUTTON */}
             <a 
               href={`mailto:${personalInfo.email}`} 
               className="flex items-center gap-3 px-8 py-4 bg-academic-blue text-white rounded-full text-lg font-medium hover:bg-academic-dark transition-all hover:shadow-lg hover:-translate-y-0.5"
@@ -33,8 +34,11 @@ const Hero: React.FC = () => {
               <Mail size={22} />
               Contact Me
             </a>
+
+            {/* CV BUTTON - Fixed for GitHub Pages */}
             <a 
-              href={personalInfo.cvLink} 
+              href="/Tanmoy-portfolio/resume.pdf" 
+              download="Tanmoy_Goswami_Resume.pdf"
               className="flex items-center gap-3 px-8 py-4 bg-white text-slate-700 border border-slate-200 rounded-full text-lg font-medium hover:border-academic-blue hover:text-academic-blue transition-all hover:shadow-md"
             >
               <FileText size={22} />
