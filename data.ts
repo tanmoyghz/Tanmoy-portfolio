@@ -4,12 +4,12 @@ export const personalInfo = {
   name: "Tanmoy Goswami",
   subtitle: "Civil & Environmental Engineering Graduate | Flood Risk Management & Sustainable Development Researcher",
   image: "/profile.jpg",
-  bio: "", // Removed as requested
+  bio: "", // Removed bio fornow. Can add later if needed.
   email: "tanmoygghz@gmail.com",
   linkedin: "https://linkedin.com/in/tanmoy-goswami",
   orcid: "https://orcid.org/0009-0005-3794-3760",
   researchgate: "https://www.researchgate.net/profile/Tanmoy-Goswami-5",
-  cvLink: "#" 
+  cvLink: "/resume.pdf" 
 };
 
 export const aboutText = `Civil and Environmental Engineering graduate with a strong interest in sustainable development and data-driven approaches to climate and environmental challenges. My academic work focuses on understanding and modeling complex environmental systems using statistical, probabilistic, and machine-learning-based methods, with particular emphasis on flood risk assessment and hydrological extremes.
