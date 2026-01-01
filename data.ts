@@ -6,7 +6,7 @@ export const personalInfo = {
   image: "/profile.jpg",
   bio: "", // Removed bio fornow. Can add later if needed.
   email: "tanmoygghz@gmail.com",
-  linkedin: "www.linkedin.com/in/tanmoyghz",
+  linkedin: "https://www.linkedin.com/in/tanmoyghz",
   orcid: "https://orcid.org/0009-0005-3794-3760",
   researchgate: "https://www.researchgate.net/profile/Tanmoy-Goswami-5",
   cvLink: "/resume.pdf" 
